@@ -9,7 +9,7 @@
 ## install
 
 ```sh
-npm install mars
+npm install validator-tools-bindings
 ```
 ## Table of contents
 
