@@ -18,6 +18,8 @@ export * from "./ibc/client";
 export * from "./injective/bundle";
 export * from "./injective/client";
 export * from "./juno/bundle";
+export * from "./mars/bundle";
+export * from "./mars/client";
 export * from "./osmosis/bundle";
 export * from "./osmosis/client";
 export * from "./tendermint/bundle";

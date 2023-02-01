@@ -40,52 +40,52 @@ import * as _172 from "./wasmx/v1/genesis";
 import * as _173 from "./wasmx/v1/query";
 import * as _174 from "./wasmx/v1/tx";
 import * as _175 from "./wasmx/v1/wasmx";
-import * as _357 from "./auction/v1beta1/tx.amino";
-import * as _358 from "./exchange/v1beta1/tx.amino";
-import * as _359 from "./insurance/v1beta1/tx.amino";
-import * as _360 from "./ocr/v1beta1/tx.amino";
-import * as _361 from "./oracle/v1beta1/tx.amino";
-import * as _362 from "./peggy/v1/msgs.amino";
-import * as _363 from "./auction/v1beta1/tx.registry";
-import * as _364 from "./exchange/v1beta1/tx.registry";
-import * as _365 from "./insurance/v1beta1/tx.registry";
-import * as _366 from "./ocr/v1beta1/tx.registry";
-import * as _367 from "./oracle/v1beta1/tx.registry";
-import * as _368 from "./peggy/v1/msgs.registry";
-import * as _369 from "./auction/v1beta1/query.lcd";
-import * as _370 from "./exchange/v1beta1/query.lcd";
-import * as _371 from "./insurance/v1beta1/query.lcd";
-import * as _372 from "./ocr/v1beta1/query.lcd";
-import * as _373 from "./oracle/v1beta1/query.lcd";
-import * as _374 from "./peggy/v1/query.lcd";
-import * as _375 from "./wasmx/v1/query.lcd";
-import * as _376 from "./auction/v1beta1/query.rpc.Query";
-import * as _377 from "./exchange/v1beta1/query.rpc.Query";
-import * as _378 from "./insurance/v1beta1/query.rpc.Query";
-import * as _379 from "./ocr/v1beta1/query.rpc.Query";
-import * as _380 from "./oracle/v1beta1/query.rpc.Query";
-import * as _381 from "./peggy/v1/query.rpc.Query";
-import * as _382 from "./wasmx/v1/query.rpc.Query";
-import * as _383 from "./auction/v1beta1/tx.rpc.msg";
-import * as _384 from "./exchange/v1beta1/tx.rpc.msg";
-import * as _385 from "./insurance/v1beta1/tx.rpc.msg";
-import * as _386 from "./ocr/v1beta1/tx.rpc.msg";
-import * as _387 from "./oracle/v1beta1/tx.rpc.msg";
-import * as _388 from "./peggy/v1/msgs.rpc.msg";
-import * as _462 from "./lcd";
-import * as _463 from "./rpc.query";
-import * as _464 from "./rpc.tx";
+import * as _364 from "./auction/v1beta1/tx.amino";
+import * as _365 from "./exchange/v1beta1/tx.amino";
+import * as _366 from "./insurance/v1beta1/tx.amino";
+import * as _367 from "./ocr/v1beta1/tx.amino";
+import * as _368 from "./oracle/v1beta1/tx.amino";
+import * as _369 from "./peggy/v1/msgs.amino";
+import * as _370 from "./auction/v1beta1/tx.registry";
+import * as _371 from "./exchange/v1beta1/tx.registry";
+import * as _372 from "./insurance/v1beta1/tx.registry";
+import * as _373 from "./ocr/v1beta1/tx.registry";
+import * as _374 from "./oracle/v1beta1/tx.registry";
+import * as _375 from "./peggy/v1/msgs.registry";
+import * as _376 from "./auction/v1beta1/query.lcd";
+import * as _377 from "./exchange/v1beta1/query.lcd";
+import * as _378 from "./insurance/v1beta1/query.lcd";
+import * as _379 from "./ocr/v1beta1/query.lcd";
+import * as _380 from "./oracle/v1beta1/query.lcd";
+import * as _381 from "./peggy/v1/query.lcd";
+import * as _382 from "./wasmx/v1/query.lcd";
+import * as _383 from "./auction/v1beta1/query.rpc.Query";
+import * as _384 from "./exchange/v1beta1/query.rpc.Query";
+import * as _385 from "./insurance/v1beta1/query.rpc.Query";
+import * as _386 from "./ocr/v1beta1/query.rpc.Query";
+import * as _387 from "./oracle/v1beta1/query.rpc.Query";
+import * as _388 from "./peggy/v1/query.rpc.Query";
+import * as _389 from "./wasmx/v1/query.rpc.Query";
+import * as _390 from "./auction/v1beta1/tx.rpc.msg";
+import * as _391 from "./exchange/v1beta1/tx.rpc.msg";
+import * as _392 from "./insurance/v1beta1/tx.rpc.msg";
+import * as _393 from "./ocr/v1beta1/tx.rpc.msg";
+import * as _394 from "./oracle/v1beta1/tx.rpc.msg";
+import * as _395 from "./peggy/v1/msgs.rpc.msg";
+import * as _479 from "./lcd";
+import * as _480 from "./rpc.query";
+import * as _481 from "./rpc.tx";
 export namespace injective {
   export namespace auction {
     export const v1beta1 = { ..._134,
       ..._135,
       ..._136,
       ..._137,
-      ..._357,
-      ..._363,
-      ..._369,
+      ..._364,
+      ..._370,
       ..._376,
-      ..._383
+      ..._383,
+      ..._390
     };
   }
   export namespace crypto {
@@ -101,11 +101,11 @@ export namespace injective {
       ..._142,
       ..._143,
       ..._144,
-      ..._358,
-      ..._364,
-      ..._370,
+      ..._365,
+      ..._371,
       ..._377,
-      ..._384
+      ..._384,
+      ..._391
     };
   }
   export namespace insurance {
@@ -113,11 +113,11 @@ export namespace injective {
       ..._146,
       ..._147,
       ..._148,
-      ..._359,
-      ..._365,
-      ..._371,
+      ..._366,
+      ..._372,
       ..._378,
-      ..._385
+      ..._385,
+      ..._392
     };
   }
   export namespace ocr {
@@ -125,11 +125,11 @@ export namespace injective {
       ..._150,
       ..._151,
       ..._152,
-      ..._360,
-      ..._366,
-      ..._372,
+      ..._367,
+      ..._373,
       ..._379,
-      ..._386
+      ..._386,
+      ..._393
     };
   }
   export namespace oracle {
@@ -139,11 +139,11 @@ export namespace injective {
       ..._156,
       ..._157,
       ..._158,
-      ..._361,
-      ..._367,
-      ..._373,
+      ..._368,
+      ..._374,
       ..._380,
-      ..._387
+      ..._387,
+      ..._394
     };
   }
   export namespace peggy {
@@ -157,11 +157,11 @@ export namespace injective {
       ..._166,
       ..._167,
       ..._168,
-      ..._362,
-      ..._368,
-      ..._374,
+      ..._369,
+      ..._375,
       ..._381,
-      ..._388
+      ..._388,
+      ..._395
     };
   }
   export namespace types {
@@ -175,12 +175,12 @@ export namespace injective {
       ..._173,
       ..._174,
       ..._175,
-      ..._375,
-      ..._382
+      ..._382,
+      ..._389
     };
   }
-  export const ClientFactory = { ..._462,
-    ..._463,
-    ..._464
+  export const ClientFactory = { ..._479,
+    ..._480,
+    ..._481
   };
 }

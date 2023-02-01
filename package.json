@@ -1,6 +1,6 @@
 {
-  "name": "@pfc/validator-tools-bindings",
-  "version": "0.0.1",
+  "name": "@pfc-validator/validator-tools-bindings",
+  "version": "0.0.2",
   "description": "Validator Tools proto bindings",
   "author": "PFC <PFC-Validator@protonmail.com>",
   "homepage": "https://github.com/PFC-Validator/validator-tools-bindings#readme",
